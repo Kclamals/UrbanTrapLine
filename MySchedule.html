@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" 
+        content="width=device-width,
+                 initial-scale=1,
+                 shrink-to-fit=no">
+  <title>
+    2LRD Schedule
+  </title>
+
+  <link rel="icon" type="image/x-icon" href="Images/2 L R D Small.ico">  
+  
+  <!-- Include Bootstrap for styling -->
+  <link rel="stylesheet"
+        href=
+"https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  
+  <!-- Include the Bootstrap Table CSS
+  for the table -->
+  <link rel="stylesheet" 
+        href=
+"https://unpkg.com/bootstrap-table@1.16.0/dist/bootstrap-table.min.css">
+</head>
+<body>
+  <nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+    <li class="breadcrumb-item active" aria-current="page">Schedule</li>
+  </ol>
+</nav>
+  <div class="container">
+    <h1 class="text text-info text-center ">
+
+      <span 
+style='font-size:48.0pt;line-height:105%;font-family:"Monotype Corsiva"'>2
+Live r<span class=GramE>’<span style='mso-spacerun:yes'>  </span>Die  </span></span></b><img src="Images/2 L R D Small 10.jpg"/></h1>
+
+  <p class="text text-info text-center "><span style='font-size:24.0pt'>Regularly Scheduled Meeting times are Wednesdays: (Meetings start on schedule, please be prompt)</span></p>      
+    </h1>
+ <br>
+    <br>
+     <a class="text-info" href="Images/Meeting Tutorial.mp4">HELP I AM A DUMB ASS hole</a>
+<br>
+    <p>Zoom Meeting Tutorial    Tutorial de reunión de Zoom</p>
+     <a href="Images/Zoom Meeting Tutorial v3.mp4" target="_blank">Zoom Meeting Tutorial   </a>
+<br>    
+    <br>
+     <a href="Images/Zoom Meeting Tutorial v3 S.mp4" target="_blank">   Tutorial de reunión de Zoom (en español)</a>
+<br>    
+    <br>
+<!--
+     <table border=1>
+       <th><td>English</td><td>Spanish</td></th>
+       <tr><td><a href="Meeting Tutorial.mp4">HELP I AM A DUMB ASS</a></td></tr>
+     </table>
+-->    
+     <table class="table-striped border-success">
+        <thead>
+          <tr>
+            <th data-field="id">
+              <span class="text-info">
+               Time Zone
+              </span>
+            </th>
+            <th data-field="name">
+              <span class="text-info">
+                Summer Schedule
+              </span>
+            </th>
+            <th data-field="date">
+              <span class="text-info">
+               Winter schedule
+              </span>
+            </th>
+          </tr>
+        </thead>
+      </table>
+  </div>
+  
+  <!-- Include jQuery and other required
+  files for Bootstrap -->
+  <script src=
+"https://code.jquery.com/jquery-3.3.1.min.js">
+  </script>
+  <script src=
+"https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js">
+  </script>
+  <script src=
+"https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js">
+  </script>
+  
+  <!-- Include the JavaScript file
+  for Bootstrap table -->
+  <script src=
+"https://unpkg.com/bootstrap-table@1.16.0/dist/bootstrap-table.min.js">
+  </script>
+  <script type="text/javascript">
+    $(document).ready(function () {
+  
+      // Use the given data to create 
+      // the table and display it
+      $('table').bootstrapTable({
+        data: mydata
+      });
+    });
+  
+    // Specify the JSON data to be displayed
+    var mydata =
+      [
+        {
+          "id": "Hawaii-Aleutian Standard Time",
+          "name": "3:00 PM",
+          "date": "3:00 PM"
+        },
+        {
+          "id": "Alaska Daylight Time",
+          "name": "5:00 PM",
+          "date": "5:00 PM"
+        },
+        {
+          "id": "Pacific Daylight Time",
+          "name": "6:00 PM",
+          "date": "6:00 PM"
+        },
+        {
+          "id": "Mountain Standard Time",
+         "name": "6:00 PM",
+          "date": "6:00 PM"
+        },
+        {
+          "id": "Mountain Standard Time",
+          "name": "7:00 PM",
+          "date": "7:00 PM"
+        },
+        {
+         "id": "Central Daylight Time",
+          "name": "8:00 PM",
+          "date": "8:00 PM"
+        },
+        {
+         "id": "Eastern Daylight Time",
+          "name": "9:00 PM",
+          "date": "9:00 PM"
+        }
+      ];
+  </script>
+</body>
+</html>
